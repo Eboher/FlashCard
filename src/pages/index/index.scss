@@ -1,0 +1,51 @@
+page {
+  height: 100%;
+}
+
+.container {
+  background-image: url('http://5b0988e595225.cdn.sohucs.com/images/20201222/f319a7d74a5a4dac89679a9622289d6c.png');
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.avatar {
+  padding-top: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  .hour {
+    font-size: 100rpx;
+  }
+
+  .date {
+    font-size: 20rpx;
+  }
+}
+
+.poetry {
+  margin-top: 100rpx;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.begin {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 150rpx;
+  font-size: 50rpx;
+  color: white;
+}

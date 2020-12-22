@@ -1,3 +1,5 @@
 export default {
-  navigationBarTitleText: '首页'
+  navigationBarBackgroundColor: '#000000',
+  navigationBarTextStyle: 'white',
+  navigationBarTitleText: '波卡'
 }
