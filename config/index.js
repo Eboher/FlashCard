@@ -1,3 +1,5 @@
+var path = require('path')
+
 const config = {
   projectName: 'FlashCard',
   date: '2020-12-22',
@@ -11,6 +13,9 @@ const config = {
   outputRoot: 'dist',
   plugins: [],
   defineConstants: {
+  },
+  alias: {
+    '@/static': path.resolve(__dirname, '..', 'src/static'),
   },
   copy: {
     patterns: [
