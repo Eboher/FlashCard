@@ -1,7 +1,7 @@
 <template>
   <view class="container">
     <view class="content" @tap="changeSide">
-      <text> {{ cardData }} </text>
+      <wemark :md="cardData" link :highlight="true" type="wemark"></wemark>
     </view>
     <view class="btn-area">
       <AtButton type='primary' :onClick="pre">  上一个 </AtButton>
